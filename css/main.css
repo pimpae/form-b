@@ -93,7 +93,7 @@ header .bars{
   left: 0;
   margin-top: 5px;
   margin-left: 15px;
-  color: #070d1d;
+  color: #fff;
   font-size: 20px;
 }
 header .hx{
@@ -103,6 +103,9 @@ header .hx{
   color: #000616;
   font-size: 20px;
   padding-top: 10px;
+  background-color: var(--bs-blue);
+  color: #fff;
+  padding-bottom: 10px;
 }
 .left-menu{ 
   position: absolute;
