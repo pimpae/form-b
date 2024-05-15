@@ -26,7 +26,7 @@
         <a href="#" class="bars">
             <i class="fas fa-bars"></i> 
         </a> 
-        <h3 class="hx">แบบ บท.03 </h3> 
+        <h3 class="hx">แบบ บท.12</h3> 
         <div class="left-menu">
             <div class="main">
                 <img src="images/logo-th.png" class="m-auto d-block mt-3" style="height: 60px; object-fit: scale-down;" alt="images"> 
@@ -39,7 +39,7 @@
                 </div>
                 <div class="bodyx">
                     <ul>
-                        <li class="active">
+                        <li>
                             <a href="index.html">
                                 <i class="far fa-file-alt"></i>บท.03
                             </a>
@@ -63,13 +63,13 @@
                             <a href="07.html">
                                 <i class="far fa-file-alt"></i>บท.07
                             </a>
-                        </li>   
+                        </li>  
                         <li>
                             <a href="09.html">
                                 <i class="far fa-file-alt"></i>บท.09
                             </a>
                         </li>   
-                        <li>
+                        <li class="active">
                             <a href="12.html">
                                 <i class="far fa-file-alt"></i>บท.12
                             </a>
@@ -90,78 +90,96 @@
             <img src="images/logo-th.png" class="m-auto d-block mb-3" style="height: 60px; object-fit: scale-down;" alt="images">
             <br>
             <div class="card p-3">
-
-                <h4>สรุปขนาดและจำนวนรางที่ต้องการ</h4>
-
-                <div class="col-12 border pt-2 pb-2 mb-2">
+                <h4>สรุปขนาดและจำนวนไม้หมอนประแจที่ต้องการ</h4>
+                <div class="col-12 border pt-2 pb-2 mb-2">  
                     <div class="row mb-3">
                         <div class="col-12">
-                            <label><b>ขนาดราง </b>(ปอนด์)</label>
+                            <label><b>ความยาวหมอน </b> (เมตร) </label>
                             <input type="text" class="form-control" >
                         </div>
-                    </div> 
+                    </div>  
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label><b>จำนวนที่ เปลี่ยนออก</b> (ท่อน) </label>
+                            <input type="text" class="form-control" >
+                        </div>
+                    </div>  
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label><b>มีอยู่แล้ว</b> (ท่อน) </label>
+                            <input type="text" class="form-control" >
+                        </div>
+                    </div>  
+
                     <div class="row mb-3">       
                         <div class="col-12">
-                            <label><b>จำนวนที่ต้องเปลี่ยนออก</b></label> 
+                            <label><b>จำนวนที่ต้องการจัดหา , เวลา และสถานที่</b></label> 
                         </div>      
-                        <div class="col-6">
-                            <label>ยาว (เมตร)</label> 
-                            <input type="text" class="form-control" >
-                        </div>
-                        <div class="col-6">
+                        <div class="col-12 mb-3">
                             <label>จำนวน (ท่อน)</label> 
                             <input type="text" class="form-control" >
                         </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-12">
-                            <label><b>มีอยู่แล้ว</b> ท่อน</label>
+                        <div class="col-6">
+                            <label>เดือน พ.ศ.</label> 
                             <input type="text" class="form-control" >
                         </div>
-                    </div>
-    
-                    <div class="row mb-3">
-                        <div class="col-12">
-                            <label><b>จำนวนที่ต้องการจัดหา , เวลา , สถานที่</b></label> 
-                        </div>
-                    </div>
-                    <div class="row mb-3 pl-3">             
-                        <div class="col-12">
-                            <label><b>จำนวนท่อน</b></label> 
+                        <div class="col-6">
+                            <label>นตท.</label> 
                             <input type="text" class="form-control" >
                         </div>
-                        <div class="col-12">
-                            <label><b>เดือน  พ.ศ. </b></label> 
-                            <input type="text" class="form-control" >
-                        </div>
-                        <div class="col-12">
-                            <label><b>นตท.</b></label> 
-                            <input type="text" class="form-control" >
-                        </div>
-                    </div>
-                </div>
+                    </div> 
+                </div> 
 
+                
                 <hr>
  
                 <div class="row mb-3">
                     <div class="col-12">
-                        <label><b>ผู้รวบรวม</b></label>
+                        <label><b>ผู้สำรวจ</b></label>
                         <select name="conWork"  class="js-example-basic-multiple w-100">
-                            <option value="0">--ผู้รวบรวม--</option>
-                            <option value="1">ผู้รวบรวม</option>  
-                            <option value="1">ผู้รวบรวม</option>  
-                            <option value="1">ผู้รวบรวม</option>  
+                            <option value="0">--ผู้สำรวจ--</option>
+                            <option value="1">ผู้สำรวจ</option>  
+                            <option value="1">ผู้สำรวจ</option>  
+                            <option value="1">ผู้สำรวจ</option>  
                         </select> 
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-12">
-                        <label><b>สบท</b></label>
+                        <label><b>นตท</b></label>
                         <select name="conWork"  class="js-example-basic-multiple w-100">
-                            <option value="0">--สบท--</option>
-                            <option value="1">สบท</option>  
-                            <option value="1">สบท</option>  
-                            <option value="1">สบท</option>  
+                            <option value="0">--นตท--</option>
+                            <option value="1">นตท</option>  
+                            <option value="1">นตท</option>  
+                            <option value="1">นตท</option>  
+                        </select> 
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label><b>วันที่ </b></label>
+                        <input type="text" class="form-control" >
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label><b>ผู้สำรวจ</b></label>
+                        <select name="conWork"  class="js-example-basic-multiple w-100">
+                            <option value="0">--ผู้สำรวจ--</option>
+                            <option value="1">ผู้สำรวจ</option>  
+                            <option value="1">ผู้สำรวจ</option>  
+                            <option value="1">ผู้สำรวจ</option>  
+                        </select> 
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label><b>นตท</b></label>
+                        <select name="conWork"  class="js-example-basic-multiple w-100">
+                            <option value="0">--นตท--</option>
+                            <option value="1">นตท</option>  
+                            <option value="1">นตท</option>  
+                            <option value="1">นตท</option>  
                         </select> 
                     </div>
                 </div>
@@ -177,23 +195,23 @@
 
                 <div class="row mb-3">
                     <div class="col-12">
-                        <label><b>ผู้เห็นชอบ</b></label>
+                        <label><b>ผู้ตรวจ</b></label>
                         <select name="conWork"  class="js-example-basic-multiple w-100">
-                            <option value="0">--ผู้เห็นชอบ--</option>
-                            <option value="1">ผู้เห็นชอบ</option>  
-                            <option value="1">ผู้เห็นชอบ</option>  
-                            <option value="1">ผู้เห็นชอบ</option>  
+                            <option value="0">--ผู้ตรวจ--</option>
+                            <option value="1">ผู้ตรวจ</option>  
+                            <option value="1">ผู้ตรวจ</option>  
+                            <option value="1">ผู้ตรวจ</option>  
                         </select> 
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-12">
-                        <label><b>วบข</b></label>
+                        <label><b>สบท</b></label>
                         <select name="conWork"  class="js-example-basic-multiple w-100">
-                            <option value="0">--วบข--</option>
-                            <option value="1">วบข</option>  
-                            <option value="1">วบข</option>  
-                            <option value="1">วบข</option>  
+                            <option value="0">--สบท--</option>
+                            <option value="1">สบท</option>  
+                            <option value="1">สบท</option>  
+                            <option value="1">สบท</option>  
                         </select> 
                     </div>
                 </div>
